@@ -47,8 +47,13 @@ You can define schemas in its schema interfaces.
 1.  How well-maintained is this package? What criteria did I use to decide?
 Last commit was yesterday, over 6k commits.
 
-Package 3:
+Package 3: Grunt
 
 1.  What problem does this package solve?
+A lot. It automates much of the development process and can be used for testing, compilation and linting.
+We've already used it extensively through the course.
 1.  How can I use this package in my own code? What steps are involved?
+Configure your package.json and Gruntfile, npm install -g grunt-cli, go to your project's root directory, install dependencies with npm install, and then run grunt with grunt in the cli.
 1.  How well-maintained is this package? What criteria did I use to decide?
+very well maintained, over 1k commits and a lot of recent activity, plus we use
+it all the time.
